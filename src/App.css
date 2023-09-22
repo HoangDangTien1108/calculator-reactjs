@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.result{
+  display: flex;
+  background-color: black;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: center;
+}
+
+.contents{
+  display: flex;
+  color:black;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.content{
+  display: flex;
+  color:black;
+  flex: 25%;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid black;
+}
